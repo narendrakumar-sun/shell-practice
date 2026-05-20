@@ -9,3 +9,4 @@ elif  [ $NUMBER -eq 20 ]; then
 
 else 
    echo "Given number : $NUMBER lessthen 20"
+fi
