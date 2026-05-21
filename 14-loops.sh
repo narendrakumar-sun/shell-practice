@@ -1,8 +1,8 @@
 #!/bin/bash
 
 USERID=$(id -u)
-LOG_FOLDER="/var/log/shell_scripting"
-LOG_FILE="/var/log/shell_scriping/$0.log"
+LOG_FOLDER="/var/log/shell_script"
+LOG_FILE="/var/log/shell_script/$0.log"
 
 if [ $USERID -ne 0 ]; then 
    echo " Please run the script in Root User " | tee -a $LOG_FILE
