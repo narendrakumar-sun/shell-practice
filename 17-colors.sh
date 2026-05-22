@@ -3,10 +3,10 @@
 USERID=$(id -u)
 LOG_FOLDER="/var/log/shell_script"
 LOG_FILE="/var/log/shell_script/$0.log"
-R="\e[31m"
-G="\e[32m"
-Y="\e[33m"
-N="\e[0m"
+R='\e[31m'
+G='\e[32m'
+Y='\e[33m'
+N='\e[0m'
 
 if [ $USERID -ne 0 ]; then
    echo " $R Please run the script in ROOT user $N"  | tee -a $LOG_FILE
