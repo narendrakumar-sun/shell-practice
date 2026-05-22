@@ -2,4 +2,4 @@
 
 X=mississippi
 
-grep -o "s" <<< '$X' | wc -l
+grep -o "s" <<< "$X" | wc -l
